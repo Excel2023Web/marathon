@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding: 80px;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: local("Clash Display"),
+        url("./assets/fonts/ClashDisplay/ClashDisplay-Variable.ttf") format("truetype");
+    font-weight: inherit;
+}
+    
+  
+/* VARIABLES */
+:root {
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Clash Display';
+    --bg-color: #ffe3b3;
+    --primary-color: #0e6da5;
+    --secondary-color: #4f8fc0;
+    --tertiary-color: #53d2dc;
+    --text-main: #333333;
+}
+  

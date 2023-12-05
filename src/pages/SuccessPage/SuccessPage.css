@@ -1,0 +1,23 @@
+.successPage {
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    color: #1CD0B0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-family: var(--primary-font);
+}
+
+.successPage__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.successPage__header h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+

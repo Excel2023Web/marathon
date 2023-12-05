@@ -1,0 +1,345 @@
+.home {
+    height: 100vh;
+    padding-top: 70px;
+    background-image: url("../../assets/png/grid.png");
+    background-color: #103147; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing_curve {
+    position: absolute;
+    bottom: -5%;
+    width: 100%;
+    pointer-events: none;
+}
+
+
+.home__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.countdown {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.c_starts {
+    height: 100%;
+    padding: 19px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ECF5F8;
+    background: #195C82;
+}
+
+.timer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 19px 44px;
+    gap: 1.5rem;
+    background: #174968;
+    backdrop-filter: blur(10px);
+    font-family: var(--secondary-font); 
+}
+
+.timer_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-style: normal;
+    color: #22A9EF;
+    gap: 0.15rem;
+    font-family: var(--secondary-font); 
+}
+
+.timer_div h1 {
+    font-size: 2.5rem;
+    letter-spacing: 0.04em;  
+    font-family: var(--secondary-font); 
+    font-weight: 800;
+    line-height: 100%;
+}
+.timer_div p {
+    font-size: 14px;
+    line-height: 13px;
+    letter-spacing: 0.04em;
+    text-transform: lowercase;
+    font-family: var(--secondary-font); 
+}
+
+.home__left, .home__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__left {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4rem;
+    gap: 0.75rem;
+}
+
+.home__left h1 {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 0.08em;
+    line-height: 120%;
+    text-transform: uppercase;
+    background: linear-gradient(85.52deg, #22A9EF -3.49%, #33C2FF 100.68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.home__left h1 span {
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.home__left p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #ECF5F8;
+}
+
+.home_reg_btn {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    position: relative;
+    outline: none;
+    background: #1CD0B0;
+    border: 4px solid rgba(28, 208, 175, 0.638);
+    z-index: 2;
+    border-radius: 2px;
+    width: 220px;
+    height: 55px;
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.10rem;
+    letter-spacing: 0.05em;
+    color: #ECF5F8;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.home__right {
+    flex: 0.5;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.landing_avatar {
+    pointer-events: none;
+    z-index: 2;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1200px) and (max-height: 700px) { 
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .home__left {
+        padding: 3rem;
+        gap: 0.75rem;
+    }
+    .landing_curve {
+        bottom: 0%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .home__left {
+        padding: 2.5rem;
+        gap: 0.75rem;
+    }
+    .landing_curve {
+        bottom: 5%;
+    }
+    .home__left h1 {
+        font-size: 50px;
+    }
+    
+    .home__left h1 span {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .home__left {
+        padding: 0 2rem;
+        margin-top: 1.25rem;
+        gap: 0.75rem;
+    }
+    .landing_curve {
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .home {
+        padding-top: 80px;
+    }
+    .home__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: relative;
+        height: 100%;
+    }
+
+    .landing_curve {
+        bottom: 20%;
+    }
+
+    .home__left {
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .home__left h1 {
+        text-align: center;
+    }
+    .home__left p {
+        text-align: center;
+    }
+    .landing_avatar {
+        width: 400px;
+        position: relative;
+        bottom: 60px;
+    }
+
+    .home__right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    .countdown {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        height: 80px;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .c_starts {
+        height: 100%;
+        padding: 19px 24px;
+        flex: 0.3;
+        font-size: 1rem;
+    }
+    .timer {
+        flex: 0.7;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 15px;
+    }
+    .timer_div h1 {
+        font-size: 2rem;
+        line-height: 19px;
+    }
+    .timer_div p {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+    .home {
+        padding-top: 40px;
+    }
+    .landing_curve {
+        bottom: 25%;
+    }
+    .landing_avatar {
+        width: 300px;
+    }
+    .home__left h1 {
+        font-size: 30px;
+        line-height: 140%;
+    }
+    
+    .home__left h1 span {
+        font-weight: 900;
+        font-size: 70px;
+    }
+    .home_reg_btn {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home__left p {
+        font-size: 16px;
+    }
+    .home__left h1 {
+        font-size: 26px;
+        line-height: 140%;
+    }
+    .home__left h1 span {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+}
+
+
+@media only screen and (device-width: 768px) {
+
+}

@@ -1,0 +1,137 @@
+.schedule {
+    min-height: 60vh;
+}
+
+.schedule_container {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.schedule_timeline {
+    gap: 2rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.schedule_card {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.5rem;
+}
+
+.scard_timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.scard_time1 {
+    font-size: 1.2rem;
+    font-family: var(--primary-font);
+    font-weight: 700;
+}
+
+.scard_time2 {
+    font-size: 0.8rem;
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+.scard_details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.6rem;
+}
+
+.scard_desc1 {
+    font-family: var(--primary-font);
+    color: #0E92D7;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.scard_desc2 {
+    font-family: var(--primary-font);
+    color: #12374F;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.schedule_coming {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 1rem;
+}
+
+.schedule_coming h1 {
+    font-family: var(--primary-font);
+    color: #0E92D7;
+}
+
+@media screen and (max-width: 1200px) {
+    .schedule_card {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .schedule_container {
+        padding: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .schedule_card {
+        width: 85%;
+    }
+
+    .scard_desc1{
+        font-size: 1.25rem ;
+    }
+
+    .scard_desc2 {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .schedule_card {
+        width: 90%;
+    }
+} 
+
+@media screen and (max-width: 400px) {
+
+    .schedule_card {
+        gap: 1.8rem;
+        width: 95%;
+    }
+
+    .scard_desc1 {
+        font-size: 1.2rem;
+    }
+
+    .scard_time1 {
+        font-size: 1rem;
+    }
+
+    .scard_time2 {
+        font-size: 0.7rem;
+    }
+}
