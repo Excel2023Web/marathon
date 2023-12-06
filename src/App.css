@@ -5,7 +5,7 @@
     line-height: 95%;
     letter-spacing: 0.04rem;
     text-transform: uppercase;
-    color: #0E92D7;
+    color: #f74670;
     text-align: center;
     font-size: 30px; 
     padding: 5px;
@@ -22,7 +22,7 @@
     content: "";
     left: 50%;
     margin-left: -25%;
-    background-color: #1CD0B0;
+    background: linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%);
   }
 
 .primary_color {
