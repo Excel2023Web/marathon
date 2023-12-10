@@ -24,7 +24,7 @@ function Navbar() {
   const scrollPosition = useScrollPosition()
 
   const navStyle = {
-    background: scrollPosition > 100 ? "linear-gradient(90deg,#e10c5d,#f9681c)" : "transparent",
+    background: scrollPosition > 100 ? "#fff" : "transparent",
     boxShadow:
       scrollPosition > 200 ? "0px 2px 9px rgba(0, 0, 0, 0.11)" : "none",
   }

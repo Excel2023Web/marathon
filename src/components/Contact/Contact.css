@@ -1,6 +1,7 @@
 .contact {
     padding: 4rem 0;
     min-height: 60vh;
+    background: #FFF0F5;
 }
 
 .contact__container {
@@ -48,9 +49,6 @@
     color: var(--text-main);
     transition: all 0.2s ease-out;
 }
-.contactCard:hover {
-
-}
 
 .contact_img {
     border-radius: 5px;
@@ -68,7 +66,7 @@
     font-size: 18px;
     text-transform: capitalize;
     margin-top: 0.25rem;
-    color: #0E92D7;
+    color: #f74670;
 }
 
 .contactCard h3 {
@@ -78,7 +76,7 @@
     opacity: 0.85;
     text-align: center;
     line-height: 105%;
-    color: #1CD0B0;
+    color: rgb(255, 162, 0);
 }
 
 .contact_social {

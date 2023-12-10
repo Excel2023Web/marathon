@@ -1,7 +1,7 @@
 .perks {
     padding: 4rem 0;
     min-height: 60vh;
-    background: #159AE0;
+    background: #FBA1B7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@
 }
 
 .perksSquare {
-    background: #26EFBF;
+    background: #f74670;
     position: absolute;
     width: 60px;
     height: 60px;
@@ -59,7 +59,7 @@
 }
 
 .pc_title span {
-    color: #26EFBF;
+    color: #f74670;
     text-transform: uppercase;
 }
 .pc_desc {
