@@ -1,15 +1,11 @@
-import React from 'react'
-import DotLoader from "react-spinners/DotLoader";
-
-
-import './Loader.css'
-
-function Loader() {
+import React from "react";
+import "./Loader.css";
+const Loader = () => {
   return (
-    <div className='loader'>
-      <DotLoader size={65} color="#1CD0B0"/>
+    <div className="loader__container">
+      <div className="loader"></div>
     </div>
-  )
-}
+  );
+};
 
-export default Loader
+export default Loader;
