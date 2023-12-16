@@ -8,7 +8,7 @@ function Perks() {
     <div className='perks'>
         <div className='perks_container'>
           <div className='perksCard'>
-            <div className='perksSquare' />
+            
             <div className='pc_container'>
               <h2 className='pc_title'><span>40% off</span> gym subscription</h2>
               <h4 className='pc_desc'>LEEWAY FITNESS CENTER</h4>
@@ -16,7 +16,7 @@ function Perks() {
             </div>
           </div>
           <div className='perksCard'>
-            <div className='perksSquare' />
+            
             <div className='pc_container'>
               <h2 className='pc_title'><span>FREE</span> sports wear</h2>
               <h4 className='pc_desc'>cosmos sports</h4>
@@ -24,7 +24,7 @@ function Perks() {
             </div>
           </div>
           <div className='perksCard'>
-            <div className='perksSquare' />
+            
             <div className='pc_container'>
               <h2 className='pc_title'><span>FREE</span> GYM MEMBERSHIP</h2>
               <h4 className='pc_desc'>LEEWAY FITNESS CENTER</h4>
@@ -32,7 +32,7 @@ function Perks() {
             </div>
           </div>
           <div className='perksCard'>
-            <div className='perksSquare' />
+            
             <div className='pc_container'>
               <h2 className='pc_title'><span>upto ₹1000 </span>therapy session discount</h2>
               <h4 className='pc_desc'>YELLOW CLUB</h4>
@@ -40,7 +40,7 @@ function Perks() {
             </div>
           </div>
           <div className='perksCard'>
-            <div className='perksSquare' />
+           
             <div className='pc_container'>
               <h2 className='pc_title'><span>FREE</span> THERAPY SESSION</h2>
               <h4 className='pc_desc'>YELLOW CLUB</h4>

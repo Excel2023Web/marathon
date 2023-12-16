@@ -1,6 +1,6 @@
 import React from 'react'
 // eslint-disable-next-line
-import { Home, About, Excel, Sponsors, Contact, Schedule, Perks } from '../../components'
+import { Home, About, Excel, Sponsors, Contact, Schedule, Perks,AboutExcel } from '../../components'
 
 import './LandingPage.css'
 
@@ -12,7 +12,8 @@ function LandingPage() {
       <Perks />
       <Sponsors />
       <Schedule />
-      <Excel />
+      <AboutExcel/>
+      {/* <Excel /> */}
       <Contact />
     </div>
   )

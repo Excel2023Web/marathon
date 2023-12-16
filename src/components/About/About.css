@@ -1,6 +1,6 @@
 .about {
     min-height: 100vh;
-    background: #FBA1B7;
+    background:  #930035;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,9 +34,10 @@
     left: 0;
     width: 50px;
     height: 245px;
-    background: #f74670;
+    background: linear-gradient(90deg, #e10c5d, #f9681c);
     transform: translate(-75px, 0%) rotate(0deg);
 }
+
 
 .map_event p {
     transform: translate(0, 170px) rotate(-90deg);

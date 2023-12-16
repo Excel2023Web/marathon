@@ -12,6 +12,9 @@
     letter-spacing:none;
     position: relative;
 }
+img{
+    pointer-events: none;
+}
 
 .section__title::before {
     position: absolute;

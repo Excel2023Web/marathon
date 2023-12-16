@@ -1,7 +1,7 @@
 .perks {
     padding: 4rem 0;
     min-height: 60vh;
-    background: #FBA1B7;
+    background:  #930035;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,9 @@
 .perksCard { 
     height: 250px;
     width: 370px;
-    background-color: rgba(255, 255, 255, 0.2);
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    border: 2px solid #ffff;
+    border-radius:20px ;
     padding: 2.5rem 2rem;
     display: flex;
     align-items: center;

@@ -9,5 +9,5 @@ export { default as Excel } from './Excel/Excel'
 export { default as Sponsors } from './Sponsors/Sponsors'
 export { default as Perks } from './Perks/Perks'
 export { default as Contact } from './Contact/Contact'
-
+export {default as AboutExcel} from './AboutExcel/AboutExcel'
 export { default as Loader } from './Loader/Loader'
