@@ -1,22 +1,31 @@
-import React from 'react'
+import React from "react";
 // eslint-disable-next-line
-import { Home, About, Excel, Sponsors, Contact, Schedule, Perks,AboutExcel } from '../../components'
+import {
+  Home,
+  About,
+  Sponsors,
+  Contact,
+  Schedule,
+  Perks,
+  AboutExcel,
+  Gallery,
+} from "../../components";
 
-import './LandingPage.css'
+import "./LandingPage.css";
 
 function LandingPage() {
   return (
-    <div className='landingPage'>
+    <div className="landingPage">
       <Home />
       <About />
       <Perks />
       <Sponsors />
       <Schedule />
-      <AboutExcel/>
-      {/* <Excel /> */}
+      <AboutExcel />
+      <Gallery />
       <Contact />
     </div>
-  )
+  );
 }
 
-export default LandingPage
+export default LandingPage;

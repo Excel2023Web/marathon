@@ -47,17 +47,21 @@
     font-weight: 500;
 }
 
+
 .scard_details {
     display: flex;
     flex-direction: column;
+    border: 2px solid  #e10c5e;
     align-items: flex-start;
+    border-radius: 20px;
+    padding: 1rem;
     justify-content: flex-start;
     gap: 0.6rem;
 }
 
 .scard_desc1 {
     font-family: var(--primary-font);
-    color: #f74670;
+    color: #f9681c;
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 100%;
