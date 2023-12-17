@@ -215,7 +215,7 @@
     gap: 0.75rem;
   }
   .landing_curve {
-    bottom: 5%;
+    bottom: 0%;
   }
   .home__left h1 {
     font-size: 50px;
@@ -454,7 +454,7 @@
 
   .landing_curve {
     position: absolute;
-    bottom: 30%;
+    bottom: 0%;
     display: none;
     width: 100%;
     pointer-events: none;
