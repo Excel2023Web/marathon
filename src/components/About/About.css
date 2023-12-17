@@ -182,7 +182,7 @@
         left: 0;
         width: 245px;
         height: 50px;
-        background: #1CD0B0;
+        background: linear-gradient(90deg, #e10c5d, #f9681c);
         transform: translate(40px, -50%) rotate(0);
     }
     .map_event p {

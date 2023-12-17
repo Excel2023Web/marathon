@@ -17,6 +17,7 @@
     flex-wrap: wrap;
 }
 .gallery__content_container>img{
-    width: 15rem;
+    width: 18rem;
+    height: 15rem;
     border-radius: 20px;
 }

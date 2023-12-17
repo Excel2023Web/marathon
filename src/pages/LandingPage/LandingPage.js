@@ -3,10 +3,10 @@ import React from "react";
 import {
   Home,
   About,
-  Sponsors,
+  // Sponsors,
   Contact,
   Schedule,
-  Perks,
+  // Perks,
   AboutExcel,
   Gallery,
 } from "../../components";
@@ -18,8 +18,8 @@ function LandingPage() {
     <div className="landingPage">
       <Home />
       <About />
-      <Perks />
-      <Sponsors />
+      {/* <Perks /> */}
+      {/* <Sponsors /> */}
       <Schedule />
       <AboutExcel />
       <Gallery />

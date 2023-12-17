@@ -1,7 +1,8 @@
-import cijo from "../assets/images/cijo.jpeg";
-import alvin from '../assets/images/alvin.jpg'
-import akash from '../assets/images/akash.jpg'
+import cijo from "../assets/images/cijo.png";
+import alvin from '../assets/images/alvin.png'
+import akash from '../assets/images/akash.png'
 import mathew from '../assets/images/mathew.png'
+import laya from '../assets/images/laya.jpg'
 export const contactsData = [
     {
       id: 1,
@@ -51,12 +52,12 @@ export const contactsData = [
     },
     {
       id: 6,
-      name: "Laya",
+      name: "Laya Sara Joy",
       designation: "Event Head",
-      image: akash,
-      phone: "+919633776062",
-      email: "akashvp40@gmail.com",
-      linkedIn: "https://www.linkedin.com/in/akash-vp-5767721b0",
+      image: laya,
+      phone: "+919446438309",
+      email: "layasara2727@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/laya-sara-joy-ba8a70257/",
     },
 
    
