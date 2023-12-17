@@ -4,9 +4,10 @@ import { HiChevronDoubleRight } from "react-icons/hi";
 
 import './Home.css'
 
-import chart from '../../assets/png/chart.png'
+import chart from "../../assets/png/chart.png";
+import chart1 from "../../assets/png/curve.png";
 
-import landing_avatar from '../../assets/svg/landing_avatar.svg'  
+import landing_avatar from '../../assets/png/run.png'  
 
 const calculateTimeLeft = () => {
 
@@ -65,78 +66,55 @@ function Home() {
   });
 
   return (
+    <div className="home">
+      <div className="home__container">
+        <div className="countdown">
+          <div className="c_starts">starts in</div>
 
-    <div className='home'>
+          <div className="timer">
+            <div className="timer_div">
+              <h1>{timeLeft.days}</h1>
 
-      <div className='home__container'>
-
-          <div className='countdown'>
-
-            <div className='c_starts'>
-
-              starts in
-
+              <p>days</p>
             </div>
 
-            <div className='timer'>
+            <div className="timer_div">
+              <h1>{timeLeft.hours}</h1>
 
-              <div className='timer_div'>
-
-                <h1>{timeLeft.days}</h1>
-
-                <p>days</p>
-
-              </div>
-
-              <div className='timer_div'>
-
-                <h1>{timeLeft.hours}</h1>
-
-                <p>hrs</p>
-
-              </div>
-
-              <div className='timer_div'>
-
-                <h1>{timeLeft.minutes}</h1>
-
-                <p>mins</p>
-
-              </div>
-
+              <p>hrs</p>
             </div>
 
+            <div className="timer_div">
+              <h1>{timeLeft.minutes}</h1>
+
+              <p>mins</p>
+            </div>
           </div>
+        </div>
+        <div className="home__right">
+          <img src={landing_avatar} alt="" className="landing_avatar" />
+        </div>
+        <div className="home__left">
+          <h1>
+            <span>REVIVE</span>
+          </h1>
 
-        <div className='home__left'>
+          <p>
+            Run with us on 5th February to spread awareness and reduce the
+            stigma around mental illness!
+          </p>
 
-          <h1>mindful miles <br /><span>matter</span></h1>
-
-          <p>Run with us on 5th February to spread awareness and reduce the stigma around mental illness!</p>
-
-          <div className='home_reg_btn'>
-
-            Reg. Closed
-
+          <div className="home_reg_btn">
+            Register Now
             <HiChevronDoubleRight />
-
           </div>
-
         </div>
-
-        <div className='home__right'>
-
-          <img src={landing_avatar} alt="" className='landing_avatar' />
-
-        </div>
-
       </div>
 
-      <img src={chart} alt="" className='landing_curve'/>
-
+      <img src={chart} alt="" className="landing_curve" />
+      <img src={chart1} alt="" className="landing_curve1" />
     </div>
-
-  )
+  );
 
 }
 
