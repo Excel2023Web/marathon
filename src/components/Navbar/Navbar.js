@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Drawer from "@mui/material/Drawer";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { Link as NavLink } from "react-scroll";
-
+import {Link} from 'react-router-dom'
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 
 import "./Navbar.css";
@@ -36,19 +36,18 @@ function Navbar() {
     <div className="navbar" style={navStyle}>
       <div className="navbar__main container">
         <div className="nav_logo">
-          <NavLink smooth={true} to="">
+          <Link to="/">
             <img src={marathon_logo_text} alt="" />
-          </NavLink>
+          </Link>
         </div>
         <div className="nav_contents">
-          <NavLink
-            smooth={true}
-            to=""
+          <Link
+            to="/"
             className="nav__link"
             activeStyle={activeStyle}
           >
             Home
-          </NavLink>
+          </Link>
           <NavLink
             smooth={true}
             to="about"
@@ -121,14 +120,14 @@ function Navbar() {
             <IoClose />
           </div>
           <div className="navbar__mobcontents">
-            <NavLink
-              smooth={true}
-              to=""
+            <Link
+              
+              to="/"
               className="navmob__link"
               onClick={handleDrawerClose}
             >
               Home
-            </NavLink>
+            </Link>
             <NavLink
               smooth={true}
               to="about"

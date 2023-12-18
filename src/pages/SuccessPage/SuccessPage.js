@@ -1,32 +1,18 @@
-import React from 'react'
-import Lottie from 'react-lottie';
-
-import success from '../../assets/json/success.json'
-import './SuccessPage.css'
+import React from "react";
+import "./SuccessPage.css";
 
 function SuccessPage() {
-
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: success,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
-
   return (
-    <div className='successPage'>
-      <Lottie
-        options={defaultOptions}
-        height={300}
-        width={300}
-      />
-      <div className='successPage__header'>
-          <h1>Thank you for registering</h1>
+    <div className="successPage">
+      <iframe
+        style={{ border: "none" }}
+        src="https://lottie.host/embed/c535c564-bd28-4b1a-a7cd-9e84229051f4/T5NeZa11J3.json"
+      ></iframe>
+      <div className="successPage__header">
+        <h1>Thank you for registering</h1>
       </div>
     </div>
-  )
+  );
 }
 
-export default SuccessPage
+export default SuccessPage;
