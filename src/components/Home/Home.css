@@ -85,8 +85,7 @@
   align-items: flex-end;
   font-style: normal;
   padding: 10px;
-  color: #f74670;
-  gap: 0.15rem;
+  color: #d94242;
   font-family: var(--secondary-font);
 }
 
@@ -96,6 +95,7 @@
   font-family: var(--secondary-font);
   font-weight: 800;
   line-height: 100%;
+ 
 }
 .timer_div p {
   font-size: 14px;
@@ -103,6 +103,7 @@
   letter-spacing: 0.04em;
   text-transform: lowercase;
   font-family: var(--secondary-font);
+  
 }
 
 .home__left,
@@ -330,7 +331,7 @@
     align-items: flex-end;
     font-style: normal;
     padding: 10px;
-    color: #f74670;
+    /* color: #f74670; */
     gap: 0.15rem;
     font-family: var(--secondary-font);
     width: 100%;
@@ -476,7 +477,7 @@
     background: linear-gradient(180.52deg, #d7cbcd -20.49%,#ef6480 -20.49%, #fda0e9 120.68%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: #f83774 -6px -0px 0px;
+    text-shadow: #af0a3f -6px -0px 0px;
     background-clip: text;
   }
 
@@ -574,7 +575,7 @@
   font-style: normal;
   justify-content: center;
   padding: 10px;
-  color: #f74670;
+  /* color: #f74670; */
   gap: 0.15rem;
   font-family: var(--secondary-font);
   width: 100vw;

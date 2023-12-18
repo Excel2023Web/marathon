@@ -89,10 +89,10 @@ function Home() {
            
           </h1>
 
-          <p>
+          {/* <p>
             Run with us on 5th February to spread awareness and reduce the
             stigma around mental illness!
-          </p>
+          </p> */}
 
           <div className="home_reg_btn" onClick={openRazorpay}>
             Register Now
