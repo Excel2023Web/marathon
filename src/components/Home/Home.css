@@ -44,7 +44,7 @@
   position: absolute;
   bottom: 50px;
   right: 0;
-  z-index: 2;
+  z-index: 40;
   display: flex;
   align-items: center;
   height: 100px;
@@ -288,7 +288,6 @@
     width: 100;
     bottom: 50px;
     right: 0;
-    z-index: 2;
     display: flex;
     align-items: center;
     height: 100px;
@@ -426,7 +425,6 @@
     background: linear-gradient(85.52deg, #ef224b -20.49%, #ef6622 120.68%);
     border: 2px solid rgba(208, 28, 28, 0.638);
     z-index: 2;
-    border-radius: 2px;
     width: 220px;
     height: 55px;
     font-family: var(--secondary-font);
@@ -529,7 +527,6 @@
   }
   .countdown {
     right: 0;
-    z-index: 2;
     display: flex;
     align-items: center;
     height: 100px;
