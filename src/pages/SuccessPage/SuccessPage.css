@@ -1,6 +1,6 @@
 .successPage {
     min-height: 100vh;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     color: #1CD0B0;
     display: flex;
     flex-direction: column;

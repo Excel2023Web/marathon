@@ -100,7 +100,7 @@ a {
     cursor: pointer;
     width: 40px;
     height: 40px;
-    color: white;
+    color: #e10c5d;
   }
 
   .nav_contents,
@@ -114,7 +114,7 @@ a {
   }
 
   .navbar__mob {
-    background-color: #ffff;
+    /* background-color: #ffff; */
     height: 100%;
     display: flex;
     flex-direction: column;

@@ -1,38 +1,31 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from "react";
 
 import { HiChevronDoubleRight } from "react-icons/hi";
 
-import './Home.css'
+import "./Home.css";
 
 import chart from "../../assets/png/chart.png";
 import chart1 from "../../assets/png/curve.png";
 
-import landing_avatar from '../../assets/png/run.png'  
+import landing_avatar from "../../assets/png/run.png";
 
 const calculateTimeLeft = () => {
-
-  let difference = +new Date("2023-02-05T10:00:00+05:30") - +new Date(); // MM/DD/YYYY
+  let difference = +new Date("2024-02-04T10:00:00+05:30") - +new Date(); // MM/DD/YYYY
 
   let timeLeft = {};
 
   if (difference > 0) {
-
-     timeLeft = {
-
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-
-        seconds: Math.floor((difference / 1000) % 60),
-
-     };
-
-  } else {
-
     timeLeft = {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
 
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+
+      minutes: Math.floor((difference / 1000 / 60) % 60),
+
+      seconds: Math.floor((difference / 1000) % 60),
+    };
+  } else {
+    timeLeft = {
       days: 0,
 
       hours: 0,
@@ -40,29 +33,25 @@ const calculateTimeLeft = () => {
       minutes: 0,
 
       seconds: 0,
-
-   };
-
+    };
   }
 
   return timeLeft;
-
 };
 
 function Home() {
+  const openRazorpay = () => {
+    window.open("https://rzp.io/l/revive23");
+  };
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
 
-     const timer = setTimeout(() => {
-
-        setTimeLeft(calculateTimeLeft());
-
-     }, 1000);
-
-     return () => clearTimeout(timer);
-
+    return () => clearTimeout(timer);
   });
 
   return (
@@ -105,7 +94,7 @@ function Home() {
             stigma around mental illness!
           </p>
 
-          <div className="home_reg_btn">
+          <div className="home_reg_btn" onClick={openRazorpay}>
             Register Now
             <HiChevronDoubleRight />
           </div>
@@ -116,8 +105,6 @@ function Home() {
       <img src={chart1} alt="" className="landing_curve1" />
     </div>
   );
-
 }
 
-export default Home
-
+export default Home;

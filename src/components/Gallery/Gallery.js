@@ -10,7 +10,7 @@ import hs6 from '../../assets/png/hs6.JPG'
 import hs7 from '../../assets/png/hs7.JPG'
 const Gallery = () => {
   return (
-    <div className="gallery__container">
+    <div className="gallery__container" id='gallery'>
       <h1
         className="section__title"
         data-aos="fade-up"
