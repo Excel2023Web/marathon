@@ -14,15 +14,17 @@
   align-items: center;
   width: 80%;
   padding: 3rem;
+  font-family: var(--secondary-font) !important;
 }
 
 .abt__excel_content_contain > img {
   width: 25rem;
 }
 .abt__excel_content_contain > p {
-  font-size: 1rem;
-  font-family: var(--primary-font);
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: var(--seconday-font);
+  font-weight: 400;
+  word-spacing: 3px;
 }
 
 
