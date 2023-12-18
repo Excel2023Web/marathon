@@ -9,9 +9,9 @@ export const contactsData = [
       name: "Mathew Davis",
       designation: "Chairperson",
       image: mathew,
-      phone: "9605204433",
-      email: "nasreenkbasheer.mec@gmail.com",
-      linkedIn: "https://www.linkedin.com/in/nasreen-k-basheer-6795331a5/",
+      phone: "+919496573224",
+      email: "mathewdavis.mec@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/mathew-davis-855002211/",
     },
     {
       id: 2,
