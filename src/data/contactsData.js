@@ -3,6 +3,7 @@ import alvin from '../assets/images/alvin.png'
 import akash from '../assets/images/akash.png'
 import mathew from '../assets/images/mathew.png'
 import laya from '../assets/images/laya.jpg'
+import aswathy from '../assets/images/aswathy.jpg'
 export const contactsData = [
     {
       id: 1,
@@ -34,6 +35,15 @@ export const contactsData = [
     },
     {
       id: 4,
+      name: "Aswathy Vijayan",
+      designation: "Event Head",
+      image: aswathy,
+      phone: "+916235386050",
+      email: "aswathyvijayanck.mec@gmail.com",
+      linkedIn: "https://www.linkedin.com/in/aswathy-vijayan-0712a5202/",
+    },
+    {
+      id: 5,
       name: "Akash VP",
       designation: "Event Head",
       image: akash,
@@ -41,15 +51,6 @@ export const contactsData = [
       email: "akashvp40@gmail.com",
       linkedIn: "https://www.linkedin.com/in/akash-vp-5767721b0",
     },
-    // {
-    //   id: 5,
-    //   name: "Aswathy Vijayan",
-    //   designation: "Event Head",
-    //   image: akash,
-    //   phone: "+919633776062",
-    //   email: "akashvp40@gmail.com",
-    //   linkedIn: "https://www.linkedin.com/in/akash-vp-5767721b0",
-    // },
     {
       id: 6,
       name: "Laya Sara Joy",
