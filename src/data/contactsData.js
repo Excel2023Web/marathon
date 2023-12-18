@@ -7,7 +7,7 @@ export const contactsData = [
     {
       id: 1,
       name: "Mathew Davis",
-      designation: "Chairperson, Excel",
+      designation: "Chairperson",
       image: mathew,
       phone: "9605204433",
       email: "nasreenkbasheer.mec@gmail.com",
@@ -41,15 +41,15 @@ export const contactsData = [
       email: "akashvp40@gmail.com",
       linkedIn: "https://www.linkedin.com/in/akash-vp-5767721b0",
     },
-    {
-      id: 5,
-      name: "Aswathy Vijayan",
-      designation: "Event Head",
-      image: akash,
-      phone: "+919633776062",
-      email: "akashvp40@gmail.com",
-      linkedIn: "https://www.linkedin.com/in/akash-vp-5767721b0",
-    },
+    // {
+    //   id: 5,
+    //   name: "Aswathy Vijayan",
+    //   designation: "Event Head",
+    //   image: akash,
+    //   phone: "+919633776062",
+    //   email: "akashvp40@gmail.com",
+    //   linkedIn: "https://www.linkedin.com/in/akash-vp-5767721b0",
+    // },
     {
       id: 6,
       name: "Laya Sara Joy",

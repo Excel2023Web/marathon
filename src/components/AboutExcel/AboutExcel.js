@@ -3,7 +3,7 @@ import "./AboutExcel.css";
 import excelLogo from '../../assets/png/excel_logo_text.png'
 const AboutExcel = () => {
   return (
-    <div className="abt__excel_main">
+    <div className="abt__excel_main" id='excel'>
       <h1
         className="section__title"
         data-aos="fade-up"
