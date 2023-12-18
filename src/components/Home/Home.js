@@ -97,6 +97,7 @@ function Home() {
         <div className="home__left">
           <h1>
             <span>REVIVE</span>
+           
           </h1>
 
           <p>
