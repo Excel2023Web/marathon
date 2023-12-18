@@ -374,7 +374,7 @@
     letter-spacing: 0.08em;
     line-height: 120%;
     text-transform: uppercase;
-    background: linear-gradient(85.52deg, #ef224b -20.49%, #ef6622 120.68%);
+    background: linear-gradient(85.52deg, #ef224b -20.49%, #ef224b 120.68%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -469,9 +469,10 @@
     letter-spacing: 0.08em;
     line-height: 120%;
     text-transform: uppercase;
-    background: linear-gradient(85.52deg, #ef224b -20.49%, #ef6622 120.68%);
+    background: linear-gradient(180.52deg, #d7cbcd -20.49%,#ef6480 -20.49%, #fda0e9 120.68%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-shadow: #f83774 -6px -0px 0px;
     background-clip: text;
   }
 
@@ -539,6 +540,41 @@
   .home__left h1 span {
     font-size: 70px;
   }
+  .countdown {
+
+ 
+  right: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  flex-direction: column;
+  width: 100vw;
+}
+.timer{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 19px 44px;
+  gap: 1.5rem;
+  background: #ffe2e9;
+  backdrop-filter: blur(10px);
+  font-family: var(--secondary-font);
+  width: 100vw;
+}
+.timer_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  justify-content: center;
+  padding: 10px;
+  color: #f74670;
+  gap: 0.15rem;
+  font-family: var(--secondary-font);
+  width: 100vw;
+}
 }
 
 @media screen and (max-width: 400px) {
