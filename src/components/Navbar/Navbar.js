@@ -7,7 +7,7 @@ import { useScrollPosition } from "../../hooks/useScrollPosition";
 
 import "./Navbar.css";
 
-// import marathon_logo_text from "../../assets/png/marathon_logo_text.png";
+import marathon_logo_text from "../../assets/png/marathon_logo_text.png";
 import excel_logo_text from "../../assets/png/excel_logo_text.png";
 
 function Navbar() {
@@ -35,11 +35,11 @@ function Navbar() {
   return (
     <div className="navbar" style={navStyle}>
       <div className="navbar__main container">
-        {/* <div className="nav_logo">
+        <div className="nav_logo">
           <Link to="/">
             <img src={marathon_logo_text} alt="" />
           </Link>
-        </div> */}
+        </div>
         <div className="nav_contents">
           <Link
             to="/"
