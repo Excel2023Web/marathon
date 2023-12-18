@@ -10,7 +10,7 @@ import chart1 from "../../assets/png/curve.png";
 import landing_avatar from "../../assets/png/run.png";
 
 const calculateTimeLeft = () => {
-  let difference = +new Date("2023-02-05T10:00:00+05:30") - +new Date(); // MM/DD/YYYY
+  let difference = +new Date("2024-02-04T10:00:00+05:30") - +new Date(); // MM/DD/YYYY
 
   let timeLeft = {};
 
