@@ -55,6 +55,7 @@
 
 .scard_details {
     display: flex;
+    width: 65%;
     flex-direction: column;
     border: 2px solid  #e10c5e;
     align-items: flex-start;
