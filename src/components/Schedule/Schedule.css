@@ -20,7 +20,7 @@
 }
 
 .schedule_card {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,7 +41,7 @@
 }
 
 .scard_time1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: var(--primary-font);
     font-weight: 700;
 }
@@ -55,19 +55,20 @@
 
 .scard_details {
     display: flex;
-    width: 65%;
+    width: 100%;
     flex-direction: column;
     border: 2px solid  #e10c5e;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 20px;
     padding: 1rem 0.5rem 1rem 0.5rem;
     justify-content: flex-start;
+    text-align: center;
 }
 
 .scard_desc1 {
     font-family: var(--primary-font);
     color: #f9681c;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: 100%;
 }
