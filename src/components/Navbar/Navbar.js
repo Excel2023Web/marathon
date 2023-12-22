@@ -7,7 +7,7 @@ import { useScrollPosition } from "../../hooks/useScrollPosition";
 
 import "./Navbar.css";
 
-import marathon_logo_text from "../../assets/png/marathon_logo_text.png";
+import marathon_logo_text from "../../assets/png/revive_without_bg.png";
 import excel_logo_text from "../../assets/png/excel_logo_text.png";
 
 function Navbar() {

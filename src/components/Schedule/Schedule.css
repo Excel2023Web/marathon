@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content:flex-start;
     gap: 2.5rem;
 }
 
@@ -60,9 +60,8 @@
     border: 2px solid  #e10c5e;
     align-items: flex-start;
     border-radius: 20px;
-    padding: 1rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
     justify-content: flex-start;
-    gap: 0.6rem;
 }
 
 .scard_desc1 {
